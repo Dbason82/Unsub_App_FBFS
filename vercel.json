@@ -2,14 +2,8 @@
     "version": 2,
     "builds": [
       {
-        "src": "server.js",
+        "src": "api/unsubscribe.js",
         "use": "@vercel/node"
-      }
-    ],
-    "routes": [
-      {
-        "src": "/api/unsubscribe",
-        "dest": "/api/unsubscribe.js"
       }
     ]
   }
